@@ -1,0 +1,18 @@
+# 运行时生成 —— 含本机网关地址和原始代理设置，绝对不要提交
+config.json
+backup.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+desktop.ini

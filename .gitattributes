@@ -1,0 +1,6 @@
+# 仓库里统一存 LF，检出时按类型还原，不受各人本地 core.autocrlf 影响
+* text=auto eol=lf
+
+# 批处理必须是 CRLF：LF 换行的 .bat 在某些 Windows 上 goto :label 会失效
+*.bat text eol=crlf
+*.cmd text eol=crlf
